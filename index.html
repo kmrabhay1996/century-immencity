@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Century Immencity — Never Seen. Never Been. Never Again.</title>
+  <meta name="description" content="56 acres. 5 districts. Bangalore's most inevitable epicenter in Jakkur. By Century Real Estate." />
+  <link rel="preload" href="./images-webp/hero-render-2.webp" as="image" type="image/webp" />
+  <link rel="preload" href="./fonts/CosiTimes-Bold.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="./fonts/HankenGrotesk-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="./fonts/Montserrat-ExtraBold.ttf" as="font" type="font/ttf" crossorigin />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script type="module" crossorigin src="./assets/index-Cgl6wp_B.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-WufLs5Uk.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-century">CENTURY</span>
+        <span class="logo-immencity">IMMENCITY</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#districts">Districts</a></li>
+        <li><a href="#residential">Neo Luxe Residences</a></li>
+        <li><a href="#floorplans">Floor Plans</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Enquire Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#districts">Districts</a></li>
+      <li><a href="#residential">Neo Luxe Residences</a></li>
+      <li><a href="#floorplans">Floor Plans</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact" class="mobile-cta">Enquire Now</a></li>
+    </ul>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 1 — HERO BANNER
+       ═══════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <!-- Hero Slideshow Background -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active" data-slide="0">
+        <img src="./images-webp/hero-render-2.webp" alt="Century Immencity Boulevard" fetchpriority="high" />
+      </div>
+      <div class="hero-slide" data-slide="1">
+        <img src="./images-webp/hero-render-1.webp" alt="Century Immencity Cherry Blossom Campus" loading="eager" fetchpriority="low" />
+      </div>
+      <div class="hero-slide" data-slide="2">
+        <img src="./images-webp/commercial-render.webp" alt="Century Immencity Commercial Hub" loading="eager" fetchpriority="low" />
+      </div>
+      <div class="hero-slide" data-slide="3">
+        <img src="./images-webp/sculpture-plaza.webp" alt="Century Immencity Sculpture Plaza" loading="eager" fetchpriority="low" />
+      </div>
+      <div class="hero-slide" data-slide="4">
+        <img src="./images-webp/night-walkway.webp" alt="Century Immencity Night Boulevard" loading="eager" fetchpriority="low" />
+      </div>
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="hero-tag-line"></span>
+        <span class="hero-tag-text">By Century Real Estate &mdash; 50+ Years of Legacy</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-line hero-line-1"><span class="hero-word">NEVER</span> <span class="hero-word-italic">seen.</span></span>
+        <span class="hero-line hero-line-2"><span class="hero-word">NEVER</span> <span class="hero-word-italic">been.</span></span>
+        <span class="hero-line hero-line-3"><span class="hero-word">NEVER</span> <span class="hero-word-italic">again.</span></span>
+      </h1>
+      <p class="hero-sub">56 Acres &bull; 5 Districts &bull; Jakkur, North Bangalore</p>
+      <a href="#overview" class="hero-cta">
+        <span>Discover the Inevitable</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+      </a>
+    </div>
+
+    <!-- Slide Indicator Dots -->
+    <div class="hero-dots">
+      <button class="hero-dot active" data-dot="0"></button>
+      <button class="hero-dot" data-dot="1"></button>
+      <button class="hero-dot" data-dot="2"></button>
+      <button class="hero-dot" data-dot="3"></button>
+      <button class="hero-dot" data-dot="4"></button>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 2 — OVERVIEW (Highlights Only)
+       ═══════════════════════════════════════════════ -->
+  <section class="overview" id="overview">
+    <div class="container">
+      <div class="overview-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="56">0</span>
+          <span class="stat-unit">Acres</span>
+          <span class="stat-label">Total Development</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-unit">Districts</span>
+          <span class="stat-label">Diverse Ecosystem</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-prefix">~</span>
+          <span class="stat-number" data-target="10">0</span>
+          <span class="stat-unit">Mn Sqft</span>
+          <span class="stat-label">Commercial Space</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-unit">K+</span>
+          <span class="stat-label">Professionals</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="334">0</span>
+          <span class="stat-unit">Neo Luxe</span>
+          <span class="stat-label">Residences</span>
+        </div>
+      </div>
+      <div class="overview-cta-wrap">
+        <button class="btn-brochure" id="btnBrochure1">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download Brochure</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 3 — DISTRICTS (Horizontal Accordion)
+       ═══════════════════════════════════════════════ -->
+  <section class="districts" id="districts">
+    <div class="container">
+      <div class="districts-header">
+        <span class="section-tag">Five Worlds. One Address.</span>
+        <h2 class="section-title">
+          <span class="title-line">The Mix,</span>
+          <span class="title-line"><em>set like a Myth.</em></span>
+        </h2>
+      </div>
+    </div>
+    <div class="h-accordion">
+      <div class="h-acc-item active" data-district="commercial">
+        <div class="h-acc-bg"><img src="./images-webp/grand-atrium.webp" alt="Commercial" loading="lazy" /></div>
+        <div class="h-acc-overlay"></div>
+        <div class="h-acc-tab"><span class="h-acc-num">01</span><span class="h-acc-name">Commercial</span></div>
+        <div class="h-acc-content">
+          <div class="h-acc-inner">
+            <span class="h-acc-tag">Commands Scale</span>
+            <h3>Commercial</h3>
+            <p>A workplace that commands the skyline and the future. Designed for Fortune 500 headquarters across ~10 million square feet of Grade-A commercial space.</p>
+            <div class="h-acc-stats"><span>~10 Mn Sqft</span><span>100K+ Professionals</span><span>Fortune 500 HQ Ready</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="h-acc-item" data-district="retail">
+        <div class="h-acc-bg"><img src="./images-webp/luxury-retail.webp" alt="Retail" loading="lazy" /></div>
+        <div class="h-acc-overlay"></div>
+        <div class="h-acc-tab"><span class="h-acc-num">02</span><span class="h-acc-name">Retail</span></div>
+        <div class="h-acc-content">
+          <div class="h-acc-inner">
+            <span class="h-acc-tag">Establishes Presence</span>
+            <h3>Retail</h3>
+            <p>Inspired by La Rambla, Orchard Road, and Piazza del Duomo. A high-street retail experience that turns everyday shopping into an event.</p>
+            <div class="h-acc-stats"><span>~1 Mn Sqft</span><span>Boutique Brands</span><span>Alfresco Caf&eacute;s</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="h-acc-item" data-district="hospitality">
+        <div class="h-acc-bg"><img src="./images-webp/luxury-interior.webp" alt="Hospitality" loading="lazy" /></div>
+        <div class="h-acc-overlay"></div>
+        <div class="h-acc-tab"><span class="h-acc-num">03</span><span class="h-acc-name">Hospitality</span></div>
+        <div class="h-acc-content">
+          <div class="h-acc-inner">
+            <span class="h-acc-tag">Intensifies Influence</span>
+            <h3>Hospitality</h3>
+            <p>A 400+ key five-star hotel that redefines business hospitality with fine dining, craft breweries, and live entertainment.</p>
+            <div class="h-acc-stats"><span>400+ Keys</span><span>5-Star Hotel</span><span>Fine Dine &amp; Events</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="h-acc-item" data-district="residential-d">
+        <div class="h-acc-bg"><img src="./images-webp/residential-towers.webp" alt="Residential" loading="lazy" /></div>
+        <div class="h-acc-overlay"></div>
+        <div class="h-acc-tab"><span class="h-acc-num">04</span><span class="h-acc-name">Residential</span></div>
+        <div class="h-acc-content">
+          <div class="h-acc-inner">
+            <span class="h-acc-tag">Reflects Distinction</span>
+            <h3>Residential</h3>
+            <p>Not beside the centre. Within it. Only 334 Neo Luxe residences &mdash; an address so singular, it simply stands apart.</p>
+            <div class="h-acc-stats"><span>334 Neo Luxe</span><span>~40K Sqft Clubhouse</span><span>Iconic From Day One</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="h-acc-item" data-district="lifestyle">
+        <div class="h-acc-bg"><img src="./images-webp/outdoor-pod.webp" alt="Lifestyle" loading="lazy" /></div>
+        <div class="h-acc-overlay"></div>
+        <div class="h-acc-tab"><span class="h-acc-num">05</span><span class="h-acc-name">Lifestyle</span></div>
+        <div class="h-acc-content">
+          <div class="h-acc-inner">
+            <span class="h-acc-tag">A Day in Many Dimensions</span>
+            <h3>Lifestyle</h3>
+            <p>Five curated zones &mdash; Think, Move, Feast, Slow, Flow &mdash; designed so every hour unfolds differently.</p>
+            <div class="h-acc-stats"><span>5 Zones</span><span>Cycling Trails</span><span>Wellness Decks</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 4 — MASTER PLAN
+       ═══════════════════════════════════════════════ -->
+  <section class="masterplan" id="masterplan">
+    <div class="container">
+      <div class="masterplan-header">
+        <span class="section-tag">The Blueprint</span>
+        <h2 class="section-title"><span class="title-line">Every Masterstroke,</span><span class="title-line"><em>Planned.</em></span></h2>
+        <p class="masterplan-sub">A human-centric urban ecosystem designed for connections to community, self, and culture. LEED Platinum aligned sustainability at its core.</p>
+      </div>
+      <!-- Interactive Masterplan Viewer -->
+      <div class="masterplan-viewer">
+        <!-- Controls Bar -->
+        <div class="masterplan-controls">
+          <div class="mp-toggle-group">
+            <button class="mp-toggle active" data-view="render">3D Render</button>
+            <button class="mp-toggle" data-view="actual">Actual Plan</button>
+          </div>
+          <!-- Day/Night Slider -->
+          <div class="mp-time-slider" id="mpTimeSlider">
+            <svg class="mp-sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <input type="range" min="0" max="100" value="0" class="mp-slider" id="mpSliderInput" />
+            <svg class="mp-moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="masterplan-map-container" id="mpContainer">
+          <div class="masterplan-map-inner" id="mpInner">
+            <img src="./images-webp/Day_Mode.webp" alt="Century Immencity 3D Render - Day" class="mp-img mp-render mp-day active" />
+            <img src="./images-webp/Night_Mode.webp" alt="Century Immencity 3D Render - Night" class="mp-img mp-render mp-night" />
+            <img src="./images-webp/masterplan-map.webp" alt="Century Immencity Actual Master Plan" class="mp-img mp-actual" />
+            <!-- Hotspot Pins -->
+            <div class="mp-hotspot" data-zone="commercial" style="top: 38%; left: 28%;"
+              data-img="/images-webp/grand-atrium.webp" data-title="Commercial District"
+              data-desc="~10 Mn sqft of Grade-A commercial space for Fortune 500 HQs, tech campuses, and 100K+ professionals."
+              data-stats="~10 Mn Sqft &bull; 100K+ Professionals &bull; Fortune 500 HQ Ready">
+              <span class="mp-pin"><span class="mp-ping"></span></span>
+              <span class="mp-pin-label">Commercial</span>
+            </div>
+            <div class="mp-hotspot" data-zone="retail" style="top: 42%; left: 45%;"
+              data-img="/images-webp/luxury-retail.webp" data-title="Retail Boulevard"
+              data-desc="~1 Mn sqft high-street retail inspired by La Rambla, Orchard Road &amp; Piazza del Duomo."
+              data-stats="~1 Mn Sqft &bull; Global Brands &bull; Alfresco Dining">
+              <span class="mp-pin"><span class="mp-ping"></span></span>
+              <span class="mp-pin-label">Retail</span>
+            </div>
+            <div class="mp-hotspot" data-zone="hospitality" style="top: 72%; left: 52%;"
+              data-img="/images-webp/luxury-interior.webp" data-title="Hospitality Quarter"
+              data-desc="400+ key five-star hotel with fine dining, craft breweries, and live entertainment."
+              data-stats="400+ Keys &bull; 5-Star &bull; Fine Dine &amp; Events">
+              <span class="mp-pin"><span class="mp-ping"></span></span>
+              <span class="mp-pin-label">Hospitality</span>
+            </div>
+            <div class="mp-hotspot" data-zone="residential" style="top: 35%; left: 70%;"
+              data-img="/images-webp/residential-towers.webp" data-title="Residential Towers"
+              data-desc="Only 334 Neo Luxe residences with ~40K sqft clubhouse. Iconic from day one."
+              data-stats="334 Homes &bull; ~40K Sqft Clubhouse &bull; 3 &amp; 4 BHK">
+              <span class="mp-pin"><span class="mp-ping"></span></span>
+              <span class="mp-pin-label">Residential</span>
+            </div>
+            <div class="mp-hotspot" data-zone="metro" style="top: 82%; left: 42%;"
+              data-img="/images-webp/metro-commuter.webp" data-title="Proposed Metro Station"
+              data-desc="Phase 2B metro right at your doorstep for seamless city connectivity."
+              data-stats="Phase 2B &bull; Direct Access &bull; City-Wide Connect">
+              <span class="mp-pin"><span class="mp-ping"></span></span>
+              <span class="mp-pin-label">Metro</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Legend + Controls + Disclaimer — all aligned below masterplan -->
+        <div class="masterplan-bottom-bar">
+          <div class="masterplan-bottom-row">
+            <div class="masterplan-legend">
+              <div class="legend-item" data-zone="commercial"><span class="legend-dot" style="background:#2563EB;"></span>Commercial</div>
+              <div class="legend-item" data-zone="retail"><span class="legend-dot" style="background:#DC2626;"></span>Retail</div>
+              <div class="legend-item" data-zone="hospitality"><span class="legend-dot" style="background:#9333EA;"></span>Hospitality</div>
+              <div class="legend-item" data-zone="residential"><span class="legend-dot" style="background:#16A34A;"></span>Residential</div>
+              <div class="legend-item" data-zone="metro"><span class="legend-dot" style="background:#EA580C;"></span>Metro</div>
+            </div>
+          </div>
+          <p class="masterplan-disclaimer">* The images used on this website are either representative or architectural renditions and may vary from the final product. Actual layout, specifications, and features are subject to RERA approvals and regulatory changes.</p>
+        </div>
+      </div>
+
+      <!-- Masterplan Popup Modal -->
+      <div class="masterplan-modal" id="masterplanModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button class="modal-close" id="modalClose">&times;</button>
+          <div class="modal-img"><img src="" alt="" id="modalImg" /></div>
+          <div class="modal-info">
+            <h3 id="modalTitle"></h3>
+            <p class="modal-stats" id="modalStats"></p>
+            <p class="modal-desc" id="modalDesc"></p>
+            <a href="#contact" class="modal-cta">Enquire About This Zone</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="masterplan-cta-wrap">
+        <button class="btn-know-more" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <span>Know More</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 5 — NEO LUXE RESIDENCES
+       ═══════════════════════════════════════════════ -->
+  <section class="residential" id="residential">
+    <div class="container">
+      <div class="residential-header">
+        <span class="section-tag">334 Neo Luxe Residences</span>
+        <h2 class="section-title residential-title"><span class="title-line">Landmarks Begin,</span><span class="title-line">with Firsts <em>&amp; Few.</em></span></h2>
+      </div>
+      <div class="residential-hero">
+        <div class="residential-image"><img src="./images-webp/residential-towers.webp" alt="Century Immencity Residential Towers" loading="lazy" /></div>
+        <div class="residential-overlay-text">
+          <p class="res-lead">Not beside the centre. <strong>Within it.</strong></p>
+          <p class="res-body">Only 334 Neo Luxe residences &mdash; an address so singular, it doesn't compete. It simply stands apart. Like you, it's iconic from day one.</p>
+        </div>
+      </div>
+      <div class="residential-features">
+        <div class="res-feature"><span class="res-feature-number">334</span><span class="res-feature-label">Neo Luxe Residences</span></div>
+        <div class="res-feature"><span class="res-feature-number">~40K</span><span class="res-feature-label">Sqft Clubhouse</span></div>
+        <div class="res-feature"><span class="res-feature-number">3 &amp; 4</span><span class="res-feature-label">BHK Configurations</span></div>
+        <div class="res-feature"><span class="res-feature-number">Global</span><span class="res-feature-label">Design Partnerships</span></div>
+      </div>
+      <div class="overview-cta-wrap">
+        <button class="btn-brochure" id="btnBrochure2">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Download Brochure</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 6 — FLOOR PLANS (merged with config)
+       ═══════════════════════════════════════════════ -->
+  <section class="floorplans" id="floorplans">
+    <div class="container">
+      <div class="floorplans-header">
+        <span class="section-tag">Configurations</span>
+        <h2 class="section-title"><span class="title-line">Floor Plans <em>&amp; Pricing</em></span></h2>
+      </div>
+      <div class="floorplans-tabs">
+        <button class="fp-tab active" data-tab="3bhk">3 BHK</button>
+        <button class="fp-tab" data-tab="4bhk">4 BHK</button>
+        <button class="fp-tab" data-tab="penthouse">Penthouse</button>
+      </div>
+      <div class="floorplans-content">
+        <div class="fp-panel active" data-panel="3bhk">
+          <div class="fp-layout">
+            <div class="fp-image">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="3 BHK Floor Plan" loading="lazy" />
+              <div class="fp-image-label">3 BHK Premium &mdash; Indicative Layout</div>
+            </div>
+            <div class="fp-details">
+              <h4>3 BHK Premium</h4>
+              <div class="fp-spec-grid">
+                <div class="fp-spec"><span class="fp-spec-label">Super Built-up Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Carpet Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bedrooms</span><span class="fp-spec-value">3</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bathrooms</span><span class="fp-spec-value">3</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Balconies</span><span class="fp-spec-value">2</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Parking</span><span class="fp-spec-value">2 Covered</span></div>
+              </div>
+              <div class="fp-price-row"><span class="fp-price-label">Price</span><span class="fp-price-value">On Request</span></div>
+              <div class="fp-highlights">
+                <span>Cross Ventilation</span><span>Private Deck</span><span>Servant Quarter</span><span>Modular Kitchen</span>
+              </div>
+              <a href="#contact" class="fp-cta">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="fp-panel" data-panel="4bhk">
+          <div class="fp-layout">
+            <div class="fp-image">
+              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="4 BHK Floor Plan" loading="lazy" />
+              <div class="fp-image-label">4 BHK Ultra Luxury &mdash; Indicative Layout</div>
+            </div>
+            <div class="fp-details">
+              <h4>4 BHK Ultra Luxury</h4>
+              <div class="fp-spec-grid">
+                <div class="fp-spec"><span class="fp-spec-label">Super Built-up Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Carpet Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bedrooms</span><span class="fp-spec-value">4</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bathrooms</span><span class="fp-spec-value">4 + 1</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Balconies</span><span class="fp-spec-value">3</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Parking</span><span class="fp-spec-value">2 Covered</span></div>
+              </div>
+              <div class="fp-price-row"><span class="fp-price-label">Price</span><span class="fp-price-value">On Request</span></div>
+              <div class="fp-highlights">
+                <span>Master Suite</span><span>Walk-in Closet</span><span>Private Terrace</span><span>Utility Room</span>
+              </div>
+              <a href="#contact" class="fp-cta">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="fp-panel" data-panel="penthouse">
+          <div class="fp-layout">
+            <div class="fp-image">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Penthouse Floor Plan" loading="lazy" />
+              <div class="fp-image-label">Penthouse &mdash; Indicative Layout</div>
+            </div>
+            <div class="fp-details">
+              <h4>Penthouse</h4>
+              <div class="fp-spec-grid">
+                <div class="fp-spec"><span class="fp-spec-label">Super Built-up Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Carpet Area</span><span class="fp-spec-value">Coming Soon</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bedrooms</span><span class="fp-spec-value">4 + Study</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Bathrooms</span><span class="fp-spec-value">5 + 1</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Terrace</span><span class="fp-spec-value">Private Rooftop</span></div>
+                <div class="fp-spec"><span class="fp-spec-label">Parking</span><span class="fp-spec-value">3 Covered</span></div>
+              </div>
+              <div class="fp-price-row"><span class="fp-price-label">Price</span><span class="fp-price-value">On Request</span></div>
+              <div class="fp-highlights">
+                <span>Double Height Living</span><span>Private Pool</span><span>Sky Lounge</span><span>360&deg; Views</span>
+              </div>
+              <a href="#contact" class="fp-cta">Enquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 7 — LOCATION (The Epicenter)
+       ═══════════════════════════════════════════════ -->
+  <section class="location" id="location">
+    <!-- Golden Mile Header -->
+    <div class="golden-mile-header">
+      <div class="container">
+        <div class="gm-header-content">
+          <div class="gm-title-area">
+            <span class="section-tag">The Epicenter</span>
+            <h2 class="gm-title"><span class="gm-the">The</span> <span class="gm-golden">Golden</span> <span class="gm-mile">Mile</span></h2>
+            <p class="gm-tagline">Brings You Closer to the City's Future.</p>
+          </div>
+          <div class="gm-pillars">
+            <div class="gm-pillar">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              <span>Seamless Connectivity</span>
+            </div>
+            <div class="gm-pillar">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+              <span>Unmatched Infrastructure</span>
+            </div>
+            <div class="gm-pillar">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M3 10h18M3 10l9-7 9 7M5 10v11M19 10v11M9 21v-4a3 3 0 016 0v4"/></svg>
+              <span>Vibrant Neighbourhood</span>
+            </div>
+            <div class="gm-pillar">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              <span>Top-Tier Talent</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full-Width Scrollable Map — image swaps per category -->
+    <div class="golden-mile-map" id="goldenMileMap">
+      <!-- Map Controls — Fullscreen / Zoom In / Zoom Out -->
+      <div class="gm-controls">
+        <button class="gm-ctrl-btn" id="gmFullscreen" title="Fullscreen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>
+        </button>
+        <button class="gm-ctrl-btn" id="gmZoomIn" title="Zoom In">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <button class="gm-ctrl-btn" id="gmZoomOut" title="Zoom Out">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+      </div>
+      <div class="gm-map-scroll" id="gmMapScroll">
+        <div class="gm-map-inner">
+          <img src="./images-webp/map_-all.webp" alt="Century Immencity Golden Mile Location Map" class="gm-map-img" id="gmMapImg" />
+        </div>
+      </div>
+      <!-- Category Filters — overlaid at bottom of map -->
+      <div class="gm-filters">
+        <div class="gm-filter-bar">
+          <button class="gm-filter active" data-cat="all">All</button>
+          <button class="gm-filter" data-cat="century">Century Projects</button>
+          <button class="gm-filter" data-cat="education">Education</button>
+          <button class="gm-filter" data-cat="healthcare">Healthcare</button>
+          <button class="gm-filter" data-cat="tech">Tech &amp; Business</button>
+          <button class="gm-filter" data-cat="connectivity">Connectivity</button>
+          <button class="gm-filter" data-cat="shopping">Shopping</button>
+          <button class="gm-filter" data-cat="hospitality">Hospitality</button>
+          <button class="gm-filter" data-cat="recreation">Recreation</button>
+        </div>
+      </div>
+      <div class="gm-map-hint" id="gmMapHint">
+        <span>Drag to explore</span>
+      </div>
+    </div>
+
+    <!-- Distance Ticker -->
+    <div class="gm-ticker">
+      <div class="container">
+        <div class="gm-ticker-inner">
+          <div class="ticker-item"><span class="ticker-dist">20 min</span><span class="ticker-place">International Airport</span></div>
+          <div class="ticker-divider">&bull;</div>
+          <div class="ticker-item"><span class="ticker-dist">10 min</span><span class="ticker-place">Manyata Tech Park</span></div>
+          <div class="ticker-divider">&bull;</div>
+          <div class="ticker-item"><span class="ticker-dist">5 min</span><span class="ticker-place">Outer Ring Road</span></div>
+          <div class="ticker-divider">&bull;</div>
+          <div class="ticker-item"><span class="ticker-dist">15 min</span><span class="ticker-place">Hebbal Flyover</span></div>
+          <div class="ticker-divider">&bull;</div>
+          <div class="ticker-item"><span class="ticker-dist">8 min</span><span class="ticker-place">Yelahanka</span></div>
+        </div>
+        <p class="gm-disclaimer">* Above mentioned timings are subject to traffic fluctuations</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 8 — GALLERY (Full-width auto-scroll)
+       ═══════════════════════════════════════════════ -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="gallery-header">
+        <span class="section-tag">Experience the Vision</span>
+        <h2 class="section-title"><span class="title-line">Gallery</span></h2>
+      </div>
+    </div>
+    <div class="gallery-scroll-wrap">
+      <div class="gallery-scroll-track" id="galleryTrack">
+        <div class="gallery-scroll-item"><img src="./images-webp/hero-render-1.webp" alt="Cherry Blossom Campus" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/grand-atrium.webp" alt="Commercial Atrium" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/water-feature.webp" alt="Water Feature" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/sculpture-plaza.webp" alt="Sculpture Plaza" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/luxury-retail.webp" alt="Retail Boulevard" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/night-walkway.webp" alt="Night Walkway" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/fine-dining.webp" alt="Fine Dining" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/boulevard-cafes.webp" alt="Boulevard Cafes" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/outdoor-pod.webp" alt="Lifestyle Zones" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/residential-towers.webp" alt="Residential Towers" loading="lazy" /></div>
+        <!-- Duplicate for infinite scroll -->
+        <div class="gallery-scroll-item"><img src="./images-webp/hero-render-1.webp" alt="Cherry Blossom Campus" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/grand-atrium.webp" alt="Commercial Atrium" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/water-feature.webp" alt="Water Feature" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/sculpture-plaza.webp" alt="Sculpture Plaza" loading="lazy" /></div>
+        <div class="gallery-scroll-item"><img src="./images-webp/luxury-retail.webp" alt="Retail Boulevard" loading="lazy" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Lightbox -->
+  <div class="gallery-lightbox" id="galleryLightbox">
+    <button class="gallery-lightbox-close" id="galleryLightboxClose">&times;</button>
+    <img src="" alt="" id="galleryLightboxImg" />
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       SECTION 9 — GET IN TOUCH
+       ═══════════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <!-- Google Maps + Form Grid -->
+      <div class="contact-map-form">
+        <div class="contact-gmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d77.6095!3d13.0735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17b0703c1f6d%3A0x0!2s3HQW%2B6W+Bengaluru!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Century Immencity Location"></iframe>
+          <a href="https://maps.app.goo.gl/a5iaDXpkwtDwUzvv7" target="_blank" rel="noopener" class="gmap-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+            <span>Find Us on Maps</span>
+          </a>
+        </div>
+        <div class="contact-right">
+          <div class="contact-info">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title contact-title"><span class="title-line">The future doesn't</span><span class="title-line">wait. <em>Neither should you.</em></span></h2>
+            <div class="contact-details">
+              <div class="contact-item"><h5>Visit Us</h5><p>Jakkur Aerodrome, Jakkuru,<br/>Bengaluru, Karnataka 560064</p></div>
+              <div class="contact-item"><h5>Call Us</h5><p>T. (+91) 80 4435 4929</p></div>
+            </div>
+          </div>
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group"><input type="text" id="fname" placeholder="Full Name" required /></div>
+              <div class="form-row">
+                <div class="form-group"><input type="email" id="femail" placeholder="Email Address" required /></div>
+                <div class="form-group"><input type="tel" id="fphone" placeholder="Phone Number" required /></div>
+              </div>
+              <div class="form-group">
+                <select id="finterest" required>
+                  <option value="" disabled selected>I'm interested in...</option>
+                  <option value="3bhk">3 BHK Residence</option>
+                  <option value="4bhk">4 BHK Residence</option>
+                  <option value="penthouse">Penthouse</option>
+                  <option value="commercial">Commercial Space</option>
+                  <option value="retail">Retail Space</option>
+                  <option value="general">General Enquiry</option>
+                </select>
+              </div>
+              <div class="form-group"><textarea id="fmessage" placeholder="Your message (optional)" rows="3"></textarea></div>
+              <button type="submit" class="form-submit"><span>Send Enquiry</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Footer Top — Logo + Nav + Contact -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-century">CENTURY</span>
+            <span class="logo-immencity">IMMENCITY</span>
+          </div>
+          <p class="footer-tagline">by Century Real Estate</p>
+        </div>
+        <div class="footer-nav">
+          <h5 class="footer-nav-title">Quick Links</h5>
+          <a href="#overview">Overview</a>
+          <a href="#districts">Districts</a>
+          <a href="#residential">Neo Luxe Residences</a>
+          <a href="#floorplans">Floor Plans</a>
+          <a href="#location">Location</a>
+          <a href="#contact">Get In Touch</a>
+        </div>
+        <div class="footer-contact">
+          <h5 class="footer-nav-title">Contact Us</h5>
+          <p class="footer-phone">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+918044354929">+91 80 4435 4929</a>
+          </p>
+          <p class="footer-address">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Jakkur Aerodrome, Jakkuru,<br/>Bengaluru, Karnataka 560064
+          </p>
+          <a href="https://wa.me/918044354929" target="_blank" rel="noopener" class="footer-whatsapp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+      <!-- Footer Divider -->
+      <div class="footer-divider"></div>
+      <!-- Footer Bottom — Legal -->
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <p class="footer-rera">RERA Reg. No.: PRM/KA/RERA/ABCD/0000/PR/000000/000000</p>
+          <p class="footer-disclaimer">Disclaimer: This is not a legal offering. The developer reserves the right to make additions, deletions, alterations or amendments in the project. All images, renders, and visuals used on this website are either representative in nature or architectural renditions and may differ from the actual product upon completion. Specifications, layouts, and amenities are indicative and subject to change without prior notice. Any data collected through this website will not be shared with any third party.</p>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; 2025 Century Real Estate Holdings Pvt. Ltd. All rights reserved.</p>
+          <div class="footer-legal-links">
+            <a href="#">Privacy Policy</a>
+            <span>&bull;</span>
+            <a href="#">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918044354929" target="_blank" rel="noopener" class="whatsapp-btn" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ═══════════════════════════════════════════════
+       ENQUIRY POPUP MODAL
+       ═══════════════════════════════════════════════ -->
+  <div class="enquiry-popup" id="enquiryPopup">
+    <div class="enquiry-popup-backdrop"></div>
+    <div class="enquiry-popup-content">
+      <button class="enquiry-popup-close" id="enquiryPopupClose">&times;</button>
+      <div class="enquiry-popup-header">
+        <span class="logo-century">CENTURY</span>
+        <span class="logo-immencity">IMMENCITY</span>
+        <p>Get the brochure and exclusive details delivered to your inbox.</p>
+      </div>
+      <form class="enquiry-popup-form" id="enquiryPopupForm">
+        <div class="form-group"><input type="text" placeholder="Full Name" required /></div>
+        <div class="form-group"><input type="email" placeholder="Email Address" required /></div>
+        <div class="form-group"><input type="tel" placeholder="Phone Number" required /></div>
+        <div class="form-group">
+          <select required>
+            <option value="" disabled selected>I'm interested in...</option>
+            <option value="3bhk">3 BHK Residence</option>
+            <option value="4bhk">4 BHK Residence</option>
+            <option value="penthouse">Penthouse</option>
+            <option value="commercial">Commercial Space</option>
+            <option value="general">General Enquiry</option>
+          </select>
+        </div>
+        <button type="submit" class="enquiry-popup-submit">
+          <span>Get Brochure</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
